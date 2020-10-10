@@ -1,6 +1,6 @@
 ## Overview
 
-This app can be accessed at: `https://tracker.a-roar.com`.
+This app can be accessed at: [https://tracker.a-roar.com](https://tracker.a-roar.com).
 
 ---
 

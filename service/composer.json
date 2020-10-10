@@ -1,0 +1,44 @@
+{
+  "name": "roar-app-backend",
+  "type": "project",
+  "description": "",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Supreet Singh",
+      "email": "supreet@a-roar.com"
+    }
+  ],
+  "require": {
+    "php": "~7.2",
+    "silex/silex": "^2.2",
+    "monolog/monolog": "^1.23",
+    "symfony/debug": "^3.3",
+    "doctrine/orm": "^2.5",
+    "lcobucci/jwt": "^3.2",
+    "symfony/validator": "^3.3",
+    "neomerx/json-api": "^1.0",
+    "jdesrosiers/silex-cors-provider": "~1.0",
+    "symfony/serializer": "^3.3",
+    "gedmo/doctrine-extensions": "^2.4",
+    "symfony/options-resolver": "^3.3",
+    "kurl/silex-doctrine-migrations-provider": "^0.2.2",
+    "knplabs/console-service-provider": "^2.2",
+    "twig/twig": "^3.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "^4.1",
+    "codeception/specify": "^0.4.6",
+    "codeception/verify": "^0.4.0",
+    "mockery/mockery": "^0.9.11",
+    "codeception/module-asserts": "^1.2",
+    "symfony/service-contracts": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "RoarProj\\": "src",
+      "RoarProj\\tests\\": "tests",
+      "Codeception\\Module\\": "tests/_support/Helper"
+    }
+  }
+}

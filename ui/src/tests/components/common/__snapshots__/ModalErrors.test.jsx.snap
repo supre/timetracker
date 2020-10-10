@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login 1`] = `
+<div
+  className="content"
+>
+  <div
+    className="ui error message"
+  >
+    Test error
+  </div>
+</div>
+`;
+
+exports[`Login 2`] = `""`;

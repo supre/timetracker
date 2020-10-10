@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render entries 1`] = `
+<div
+  className="ui basic loading segment"
+>
+  <div
+    className="ui compact inverted secondary top attached menu"
+  >
+    <div
+      className="right menu"
+    >
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        <button
+          className="ui facebook circular icon inverted button"
+          onClick={[Function]}
+        >
+          <i
+            aria-hidden="true"
+            className="refresh icon"
+            onClick={[Function]}
+          />
+        </button>
+      </div>
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        <button
+          className="ui facebook icon inverted right labeled button"
+          onClick={[Function]}
+        >
+          <i
+            aria-hidden="true"
+            className="clock outline icon"
+            onClick={[Function]}
+          />
+          Track Time
+        </button>
+      </div>
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        <div
+          className="field"
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            className="field"
+          >
+            <div
+              className="ui icon input"
+              data-testid="datepicker-input"
+            >
+              <input
+                disabled={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                placeholder="Select Range"
+                readOnly={true}
+                required={false}
+                type="text"
+                value=""
+              />
+              <i
+                aria-hidden="true"
+                className="calendar link icon"
+                data-testid="datepicker-icon"
+                onClick={[Function]}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui facebook icon right attached button"
+          onClick={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <i
+            aria-hidden="true"
+            className="filter icon"
+            onClick={[Function]}
+          />
+        </div>
+      </div>
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        <a
+          className="ui facebook icon disabled left labeled button"
+          href=""
+          onClick={[Function]}
+          role="button"
+          tabIndex={-1}
+          target="_BLANK"
+        >
+          <i
+            aria-hidden="true"
+            className="download icon"
+            onClick={[Function]}
+          />
+          HTML
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

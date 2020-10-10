@@ -1,0 +1,9 @@
+.clndr-calendars-wrapper,
+.clndr-calendars-wrapper > a:not(.ui) {
+  color: #000;
+}
+
+.entryModal div.field {
+  display: inherit !important;
+  width: 100%;
+}

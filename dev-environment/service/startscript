@@ -1,0 +1,5 @@
+#!/bin/sh
+
+php -d memory_limit=-1 /root/composer.phar install -o
+
+apache2-foreground

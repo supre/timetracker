@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render entries view 1`] = `
+<table
+  className="ui bottom attached table"
+>
+  <thead
+    className=""
+  >
+    <tr
+      className=""
+    >
+      <th
+        className="three wide"
+      >
+        Date
+      </th>
+      <th
+        className="three wide"
+      >
+        Hours Worked
+      </th>
+      <th
+        className="eight wide"
+      >
+        Notes
+      </th>
+      <th
+        className="two wide"
+      >
+        Action
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className=""
+  >
+    <tr
+      className="positive"
+    >
+      <td
+        className=""
+      >
+        Mon Jun 22 2020
+      </td>
+      <td
+        className=""
+      >
+        8
+      </td>
+      <td
+        className=""
+      >
+        Positive row
+      </td>
+      <td
+        className=""
+      >
+        <button
+          className="ui basic circular icon button"
+          onClick={[Function]}
+        >
+          <i
+            aria-hidden="true"
+            className="edit icon"
+            onClick={[Function]}
+          />
+        </button>
+        <button
+          className="ui basic circular icon button"
+          onClick={[Function]}
+        >
+          <i
+            aria-hidden="true"
+            className="delete icon"
+            onClick={[Function]}
+          />
+        </button>
+      </td>
+    </tr>
+    <tr
+      className="negative"
+    >
+      <td
+        className=""
+      >
+        Mon Jun 22 2020
+      </td>
+      <td
+        className=""
+      >
+        4
+      </td>
+      <td
+        className=""
+      >
+        Negative row
+      </td>
+      <td
+        className=""
+      >
+        <button
+          className="ui basic circular icon button"
+          onClick={[Function]}
+        >
+          <i
+            aria-hidden="true"
+            className="edit icon"
+            onClick={[Function]}
+          />
+        </button>
+        <button
+          className="ui basic circular icon button"
+          onClick={[Function]}
+        >
+          <i
+            aria-hidden="true"
+            className="delete icon"
+            onClick={[Function]}
+          />
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

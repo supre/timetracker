@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu should render 1`] = `
+<div
+  className="ui compact inverted secondary top attached menu"
+>
+  <div
+    className="right menu"
+  >
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <button
+        className="ui facebook circular icon inverted button"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="refresh icon"
+          onClick={[Function]}
+        />
+      </button>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <button
+        className="ui facebook icon inverted right labeled button"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="clock outline icon"
+          onClick={[Function]}
+        />
+        Track Time
+      </button>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <div
+        className="field"
+        style={
+          Object {
+            "display": "inline-block",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          className="field"
+        >
+          <div
+            className="ui icon input"
+            data-testid="datepicker-input"
+          >
+            <input
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Select Range"
+              readOnly={true}
+              required={false}
+              type="text"
+              value=""
+            />
+            <i
+              aria-hidden="true"
+              className="calendar link icon"
+              data-testid="datepicker-icon"
+              onClick={[Function]}
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="ui facebook icon right attached button"
+        onClick={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <i
+          aria-hidden="true"
+          className="filter icon"
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        className="ui facebook icon disabled left labeled button"
+        href="http"
+        onClick={[Function]}
+        role="button"
+        tabIndex={-1}
+        target="_BLANK"
+      >
+        <i
+          aria-hidden="true"
+          className="download icon"
+          onClick={[Function]}
+        />
+        HTML
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Track time click should open entry model 1`] = `
+<div
+  class="ui page modals dimmer transition visible active"
+  style="display: flex;"
+>
+  <div
+    class="ui basic modal transition visible active"
+  >
+    <div
+      class="header"
+    >
+      <i
+        aria-hidden="true"
+        class="clock icon"
+      />
+      Track your time
+    </div>
+    <div
+      class="content"
+    >
+      <form
+        class="ui form entryModal"
+      >
+        <div
+          class="field"
+          style="display: inline-block; position: relative;"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="ui left icon input"
+              data-testid="datepicker-input"
+            >
+              <input
+                placeholder="Pick date"
+                readonly=""
+                type="text"
+                value=""
+              />
+              <i
+                aria-hidden="true"
+                class="calendar link icon"
+                data-testid="datepicker-icon"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="ui fluid labeled input"
+          >
+            <div
+              class="ui label label"
+            >
+              HoursWorked
+            </div>
+            <input
+              name="hoursWorked"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <textarea
+            name="notes"
+            placeholder="Write your notes..."
+            rows="3"
+          />
+        </div>
+      </form>
+    </div>
+    <div
+      class="content"
+    />
+    <div
+      class="actions"
+    >
+      <button
+        class="ui green button"
+      >
+        <i
+          aria-hidden="true"
+          class="checkmark icon"
+        />
+         Add
+      </button>
+      <button
+        class="ui red button"
+      >
+        <i
+          aria-hidden="true"
+          class="remove icon"
+        />
+         Cancel
+      </button>
+    </div>
+  </div>
+</div>
+`;
